@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "hackathon_7.0",
-    "slug": "hackathon_7.0",
+    "name": "Recyclo",
+    "slug": "recyclo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.recyclo.myapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b5bede7d-43d7-4d24-89b2-a032504493bf"
+      }
     }
   }
 }
